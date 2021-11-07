@@ -68,13 +68,18 @@ footer {
 @media screen and (max-width: 768px) {
   header {
     width: 100%;
-}
-
-main {
-width: 100%;
-}
-
-.step-box {
-  width: 90%;
-  margin-top: 20px;
+  }
+  main {
+    width: 100%;
+    display: inline-block;
+  }
+  .step-box {
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .step-box:last-child {
+    margin-bottom: 0px;
+  }
 }
